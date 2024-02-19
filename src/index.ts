@@ -157,6 +157,7 @@ const brazilianPortugueseMessages: TranslationMessages = {
       canceled: 'Ação cancelada',
       logged_out: 'Sua sessão foi finalizada, por favor reconecte.',
       not_authorized: "Você não está autorizado a acessar este recurso.",
+      application_update_available: 'Uma nova versão está disponível.',
     },
     validation: {
       required: 'Obrigatório',
