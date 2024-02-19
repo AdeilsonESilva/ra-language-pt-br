@@ -8,6 +8,7 @@ const brazilianPortugueseMessages: TranslationMessages = {
       back: 'Retornar',
       bulk_actions: '%{smart_count} selecionado |||| %{smart_count} selecionados',
       cancel: 'Cancelar',
+      clear_array_input: 'Limpara a lista',
       clear_input_value: 'Limpar valor',
       clone: 'Duplicar',
       confirm: 'Confirmar',
@@ -39,6 +40,7 @@ const brazilianPortugueseMessages: TranslationMessages = {
       open: 'Abrir',
       toggle_theme: 'Alterar tema',
       select_columns: 'Selecionar Colunas',
+      update_application: 'Recarregar Aplicação'
     },
     boolean: {
       true: 'Sim',
@@ -84,6 +86,7 @@ const brazilianPortugueseMessages: TranslationMessages = {
     message: {
       about: 'Sobre',
       are_you_sure: 'Tem certeza?',
+      auth_error: 'Ocorreu um erro ao validar o token de autenticação.',
       bulk_delete_content:
         'Você tem certeza que quer remover isso %{name}? |||| Você tem certeza que quer remover estes %{smart_count} items?',
       bulk_delete_title:
@@ -92,6 +95,7 @@ const brazilianPortugueseMessages: TranslationMessages = {
         'Tem certeza que deseja atualizar este %{name}? |||| Tem certeza que deseja atualizar estes %{smart_count} itens?',
       bulk_update_title:
         'Atualizar %{name} |||| Atualizar %{smart_count} %{name}',
+      clear_array_input: 'Tem certeza de que deseja limpar toda a lista?',
       delete_content: 'Você tem certeza que quer remover este item?',
       delete_title: 'Remover %{name} #%{id}',
       details: 'Detalhes',
@@ -180,15 +184,23 @@ const brazilianPortugueseMessages: TranslationMessages = {
     configurable: {
       customize: 'Customizar',
       configureMode: 'Configurar esta página',
-      Datagrid: {
-        unlabeled: 'Coluna sem rótulo #%{column}',
-      },
       inspector: {
         title: 'Inspetor',
         content: 'Passe o mouse sobre os elementos da interface do usuário do aplicativo para configurá-los',
         reset: 'Redefinir configurações',
+        hideAll: 'Esconder tudo',
+        showAll: 'Mostrar tudo',
+      },
+      Datagrid: {
+        title: 'Grade de dados',
+        unlabeled: 'Coluna sem rótulo #%{column}',
+      },
+      SimpleForm: {
+        title: 'Formulário',
+        unlabeled: 'Campo sem rótulo #%{input}',
       },
       SimpleList: {
+        title: 'Lista',
         primaryText: 'Texto primário',
         secondaryText: 'Texto secundário',
         tertiaryText: 'Texto terciário',
